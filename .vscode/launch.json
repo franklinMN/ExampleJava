@@ -1,0 +1,273 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "A",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "ArrayTesting",
+            "request": "launch",
+            "mainClass": "ArrayTesting",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "AsciiValueOfAllChracters",
+            "request": "launch",
+            "mainClass": "AsciiValueOfAllChracters",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "Babydog",
+            "request": "launch",
+            "mainClass": "Babydog",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "BreakExample",
+            "request": "launch",
+            "mainClass": "BreakExample",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "ClassObjectExample",
+            "request": "launch",
+            "mainClass": "ClassObjectExample",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "DataTypeExplained",
+            "request": "launch",
+            "mainClass": "DataTypeExplained",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "DataTypePrinter",
+            "request": "launch",
+            "mainClass": "DataTypePrinter",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "DatatypesDemo",
+            "request": "launch",
+            "mainClass": "DatatypesDemo",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "DoubleLinkedListMain",
+            "request": "launch",
+            "mainClass": "DoubleLinkedListMain",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "ExampleExp",
+            "request": "launch",
+            "mainClass": "ExampleExp",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "ExpressionExample",
+            "request": "launch",
+            "mainClass": "ExpressionExample",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "FindingGCDAndLCM",
+            "request": "launch",
+            "mainClass": "FindingGCDAndLCM",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "FirstSwingExample",
+            "request": "launch",
+            "mainClass": "FirstSwingExample",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "HandCricketMain",
+            "request": "launch",
+            "mainClass": "HandCricketMain",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "LeapYearOrNot",
+            "request": "launch",
+            "mainClass": "LeapYearOrNot",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "LinearSortingASD",
+            "request": "launch",
+            "mainClass": "LinearSortingASD",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "NewExample",
+            "request": "launch",
+            "mainClass": "NewExample",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "NumberOfDigitsInNumber",
+            "request": "launch",
+            "mainClass": "NumberOfDigitsInNumber",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "Numbers",
+            "request": "launch",
+            "mainClass": "Numbers",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "PalindromNumOrNot",
+            "request": "launch",
+            "mainClass": "PalindromNumOrNot",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "PasswordGenerator",
+            "request": "launch",
+            "mainClass": "PasswordGenerator",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumOrNot",
+            "request": "launch",
+            "mainClass": "PrimeNumOrNot",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "PrintFibonacciSeries",
+            "request": "launch",
+            "mainClass": "PrintFibonacciSeries",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "QuotientRemainder",
+            "request": "launch",
+            "mainClass": "QuotientRemainder",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "ScanClass",
+            "request": "launch",
+            "mainClass": "ScanClass",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "ScannerDelimiterExample3",
+            "request": "launch",
+            "mainClass": "ScannerDelimiterExample3",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "Simple",
+            "request": "launch",
+            "mainClass": "Simple",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "StackImplementation",
+            "request": "launch",
+            "mainClass": "StackImplementation",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "StonePaperScissors",
+            "request": "launch",
+            "mainClass": "StonePaperScissors",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "SwapValueAB",
+            "request": "launch",
+            "mainClass": "SwapValueAB",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "SwapValueABT",
+            "request": "launch",
+            "mainClass": "SwapValueABT",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "SwingListenerDemo",
+            "request": "launch",
+            "mainClass": "SwingListenerDemo",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "TeachingSwapValueAB",
+            "request": "launch",
+            "mainClass": "TeachingSwapValueAB",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "VowelConsonant",
+            "request": "launch",
+            "mainClass": "VowelConsonant",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
+            "name": "VowelConsonantSwitch",
+            "request": "launch",
+            "mainClass": "VowelConsonantSwitch",
+            "projectName": "Java-Programs-FMN_e0943832"
+        }
+    ]
+}
