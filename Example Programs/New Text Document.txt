@@ -1,0 +1,12 @@
+class DataTypeExplained {
+	public static void main () {
+		System.out.println( "Byte Data Type:" );
+		System.out.println( "It is an 8-bit signed two's complement integer." );
+		System.out.println( "Its minimum value is -128" );
+		System.out.println( "Its maximum value is 127" );
+		System.out.println( "Its Default Value is 0" );
+		System.out.println( "Example:" );
+		System.out.println( "byte a = 10;" );
+		
+	}
+} 

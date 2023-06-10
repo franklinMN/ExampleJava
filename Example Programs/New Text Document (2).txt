@@ -1,0 +1,6 @@
+class ArrayTesting {
+	public static void main ( String [] args ) {
+		ArrayTesting object = ArrayTesting();
+		 
+	}
+}
