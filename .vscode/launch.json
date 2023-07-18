@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FlamesMain",
+            "request": "launch",
+            "mainClass": "FlamesProgram.FlamesMain",
+            "projectName": "Java-Programs-FMN_acc64818"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
