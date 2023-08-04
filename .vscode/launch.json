@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EmployeeManagementSystem",
+            "request": "launch",
+            "mainClass": "EmployeeManagementSystem",
+            "projectName": "Java-Programs-FMN_acc64818"
+        },
+        {
+            "type": "java",
             "name": "FlamesMain",
             "request": "launch",
             "mainClass": "FlamesProgram.FlamesMain",
