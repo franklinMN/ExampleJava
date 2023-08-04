@@ -7,5 +7,8 @@ public class Manager extends Employee {
         this.allowance = allowance;
     }
 
+    public double getSalary(  ) {
+        return super.getSalary()+allowance;
+    }
     
 }

@@ -7,4 +7,7 @@ public class Clerk extends Employee{
         this.overtimeHours = otHours;
     }
 
+    // public double getSalary(  ) {
+    //     return basicSalary;
+    // }
 }
