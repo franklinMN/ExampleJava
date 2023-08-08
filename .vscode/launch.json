@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrintMain",
+            "request": "launch",
+            "mainClass": "generics.PrintMain",
+            "projectName": "Java-Programs-FMN_acc64818"
+        },
+        {
+            "type": "java",
             "name": "EmployeeManagementSystem",
             "request": "launch",
             "mainClass": "EmployeeManagementSystem",

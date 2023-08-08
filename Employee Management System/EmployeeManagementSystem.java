@@ -58,7 +58,7 @@ public class EmployeeManagementSystem {
         ems.calculateSalary(c1);
         ems.addEmployee(m1);
         ems.addEmployee(c1);
-        ems.calculateTotalSalary();
+        ems.calculateTotalSalary(); 
         ems.removeEmployee(c1);
         ems.displayAllEmployees();
     }
