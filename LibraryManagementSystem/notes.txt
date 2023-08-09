@@ -1,0 +1,40 @@
+Question
+In this task, you will be developing a Library Management System in Java using generic classes and interfaces. Your system should allow users to manage books, track borrowers, and perform various operations related to library management. Follow the steps given to complete the task. 
+
+Description
+Step 1: Create the Book class
+
+Create a Java class named "Book" with the following attributes: title (String), author (String), and publicationYear (int).
+Implement a constructor that takes values for all attributes.
+Implement getter and setter methods for all attributes.
+
+Step 2: Create the Borrower interface
+
+Define a Java interface named "Borrower" with the following methods:
+borrow(Book book): This method should allow a borrower to borrow a book.
+returnBook(Book book): This method should allow a borrower to return a book.
+
+Step 3: Create the Library class
+
+Create a Java class named "Library" that implements the Borrower interface.
+Use a generic type parameter for the Library class to allow it to work with different types of books.
+Implement a collection (e.g., ArrayList) to store the books in the library.
+Implement methods to add a book to the library, remove a book from the library, and display all books in the library.
+
+Step 4: Implement the borrow() and returnBook() methods
+
+In the Library class, implement the borrow() method from the Borrower interface.
+This method should check if the book is available in the library and remove it from the collection if it is.
+If the book is not available, display an appropriate message.
+Implement the returnBook() method from the Borrower interface.
+This method should add the returned book back to the library collection.
+
+Step 5: Test the Library Management System
+
+Create an instance of the Library class.
+Add several books to the library using the addBook() method.
+Display all books in the library using the displayBooks() method.
+Allow a borrower to borrow a book using the borrow() method.
+Display the updated list of books in the library.
+Allow the borrower to return the book using the returnBook() method.
+Display the final list of books in the library.
