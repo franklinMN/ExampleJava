@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+//import LibraryManagementSystem.Books;
 
 /*
 
@@ -20,33 +21,40 @@ This method should add the returned book back to the library collection.
 
 */
 
-class Library<T extends Books> implements Borrower {
-    private List<T> books;
+public class Library<B extends Books> implements Borrower<B> {
+    private List<B> books;
 
     public Library() {
         books = new ArrayList<>();
     }
 
-    public void addBook(T book) {
+    public void addBook(B book) {
         books.add(book);
     }
 
-    public void removeBook(T book) {
+    public void removeBook(B book) {
         books.remove(book);
     }
 
+    // public void borrow(B book) {
+
+    // }
+    // public void returnBook(B book) {
+
+    // }
+
     public void displayBooks() {
         System.out.println("Books in the library:");
-        for (T book : books) {
+        for (B book : books) {
             System.out.println(book.getTitle() + " by " + book.getAuthor() +
                                ", Year: " + book.getPublicationYear());
         }
     }
 
     @Override
-    public void borrow(Books book) {
+    public void borrow(B book) {
         if (books.contains(book)) {
-            removeBook((T) book);
+            removeBook((B) book);
             System.out.println("Book borrowed: " + book.getTitle());
         } else {
             System.out.println("Book not available for borrowing.");
@@ -55,7 +63,34 @@ class Library<T extends Books> implements Borrower {
 
     @Override
     public void returnBook(Books book) {
-        addBook((T) book);
+        addBook((B) book);
         System.out.println("Book returned: " + book.getTitle());
     }
+
+        public static void main(String[] args) {
+            Library<Books> library = new Library<Books>();
+    
+            Books book1 = new Books("The Great Gatsby", "F. Scott Fitzgerald", 1925);
+            Books book2 = new Books("To Kill a Mockingbird", "Harper Lee", 1960);
+    
+            library.addBook(book1);
+            library.addBook(book2);
+    
+            library.displayBooks();
+    
+            Borrower borrower = library;
+            borrower.borrow(book1);
+    
+            library.displayBooks();
+    
+            borrower.returnBook(book1);
+    
+            library.displayBooks();
+    }
+    
+    
+    
+    
+    
+    
 }

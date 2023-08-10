@@ -8,6 +8,6 @@ returnBook(Book book): This method should allow a borrower to return a book.
 
 
 public interface Borrower<B> {
-    void borrow(B book);
-    void returnBook(B book);
+    public void borrow(B book);
+    public void returnBook(B book);
 }
