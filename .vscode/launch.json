@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrintWriterExample",
+            "request": "launch",
+            "mainClass": "PrintWriterExample",
+            "projectName": "Java-Programs-FMN_acc64818"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",
