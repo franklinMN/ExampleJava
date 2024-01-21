@@ -20,5 +20,7 @@ public class Average {
 
         System.out.println("Average : " + average);
 
+        scanner.close();
+
     }
 }

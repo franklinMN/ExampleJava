@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrimeWithLimit",
+            "request": "launch",
+            "mainClass": "PrimeWithLimit",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
             "name": "Palindrome",
             "request": "launch",
             "mainClass": "Palindrome",
