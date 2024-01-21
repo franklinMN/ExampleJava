@@ -1,0 +1,10 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee">
+    <servlet>
+        <servlet-name>DemoServlet</servlet-name>
+        <servlet-class>com.example1.webApp.webInf.classes.DemoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DemoServlet</servlet-name>
+        <url-pattern>/DemoServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
