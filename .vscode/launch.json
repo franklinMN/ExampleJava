@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "Java-Programs-FMN_e0943832"
+        },
+        {
+            "type": "java",
             "name": "ReverseNumber",
             "request": "launch",
             "mainClass": "ReverseNumber",
