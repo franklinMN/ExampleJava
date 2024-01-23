@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OnlyDigits",
+            "request": "launch",
+            "mainClass": "OnlyDigits",
+            "projectName": "Java-Programs-FMN_acc64818"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
