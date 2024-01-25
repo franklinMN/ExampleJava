@@ -1,6 +1,8 @@
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.Properties;
 
 public class PropertiesExample {
@@ -21,8 +23,8 @@ public class PropertiesExample {
         properties.setProperty("newKey", "newValue");
 
         // Saving properties
-        try {
-            properties.store(System.out, "Updated properties");
+        try (OutputStream output = new FileOutputStream("config.properties")) {
+            properties.store(output, "Updated properties");
         } catch (IOException e) {
             e.printStackTrace();
         }
