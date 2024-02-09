@@ -1,0 +1,21 @@
+.root{
+    -fx-background-color: #222;
+    -fx-alignment: center;
+}
+.label{
+    -fx-text-fill: white;
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 20;
+    -fx-alignment: center;
+}
+
+.button{
+    -fx-background-color: #222;
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+    -fx-border-color: blue;
+}
+
+#m1title{
+    -fx-font-size: 60;
+}
