@@ -6,17 +6,17 @@
 //  2 2 2 2 2
 //  1 1 1 1 1
 
-public class NumberRectangle {
+public class PatternProgramNumRect {
 
     public static void main(String[] args) {
         int rows = 5;
 
-        for(int i=0 ; i<rows ; i++) {
-            for(int j=rows ; j>0 ; j--) {
-                System.out.print(rows-i + " ");
+        for (int i = 0; i < rows; i++) {
+            for (int j = rows; j > 0; j--) {
+                System.out.print(rows - i + " ");
             }
             System.out.println();
         }
     }
-    
+
 }
