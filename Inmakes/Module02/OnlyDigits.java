@@ -3,18 +3,20 @@
 
 public class OnlyDigits {
 
-    public static String onlyDigit(String text){
+    public static StringBuilder onlyDigit(String text) {
 
         StringBuilder temp = new StringBuilder();
 
-        for( char c : text.toCharArray() ){
-            if( Character.isDigit(c) )
+        for (char c : text.toCharArray()) {
+            if (Character.isDigit(c))
                 temp.append(c);
         }
-        return temp.toString();
+        return temp;
+
     }
+
     public static void main(String[] args) {
-       
+
         String text = "75#41*";
         System.out.println("Original string - " + text);
         System.out.println("Only Digit string - " + onlyDigit(text));

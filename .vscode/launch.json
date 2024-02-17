@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveFirstLastChar",
+            "request": "launch",
+            "mainClass": "Inmakes.Module02.RemoveFirstLastChar",
+            "projectName": "Java-Programs-FMN_acc64818"
+        },
+        {
+            "type": "java",
             "name": "RemoveDuplicates",
             "request": "launch",
             "mainClass": "RemoveDuplicates",

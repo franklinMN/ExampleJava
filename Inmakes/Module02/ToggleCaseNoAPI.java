@@ -3,23 +3,23 @@
 
 public class ToggleCaseNoAPI {
 
-    public static String toggleString(String text){
-        
+    public static StringBuilder toggleString(String text) {
+
         // char[] ch = ;
 
         StringBuilder temp = new StringBuilder();
 
-        for( char ch : text.toCharArray() ){
+        for (char ch : text.toCharArray()) {
 
-            if( ch>='a' && ch<='z' ){
-                temp = temp.append((char)(ch-32));
-            }else if( ch>='A' && ch<='Z' ){
-                temp = temp.append((char)(ch+32));
-            }else{
-                temp = temp.append(ch);
+            if (ch >= 'a' && ch <= 'z') {
+                temp.append((char) (ch - 32));
+            } else if (ch >= 'A' && ch <= 'Z') {
+                temp.append((char) (ch + 32));
+            } else {
+                temp.append(ch);
             }
         }
-      return temp.toString();
+        return temp;
     }
 
     public static void main(String[] args) {
